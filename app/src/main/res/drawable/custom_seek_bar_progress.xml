@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Kreska białego koloru -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" /> <!-- Zaokrąglenie rogów -->
+            <solid android:color="@android:color/white" /> <!-- Biały kolor -->
+        </shape>
+    </item>
+    <!-- Kolor szarawy za thumbem -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="20dp" /> <!-- Zaokrąglenie rogów -->
+                <solid android:color="#C0C0C0" /> <!-- Szarawy kolor -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tło ciemniejsze z lewej strony -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" /> <!-- Zaokrąglenie rogów -->
+            <gradient
+                android:startColor="#808080"
+                android:endColor="#000000"
+                android:angle="0"/>
+        </shape>
+    </item>
+    <!-- Tło jaśniejsze z prawej strony -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="20dp" /> <!-- Zaokrąglenie rogów -->
+                <gradient
+                    android:startColor="#000000"
+                    android:endColor="#808080"
+                    android:angle="0"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
