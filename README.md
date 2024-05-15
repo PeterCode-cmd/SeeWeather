@@ -1,6 +1,6 @@
-# WeatherApp
+# SeeWeather
 
-WeatherApp is an Android application built in Kotlin that emulates the weather app from Android 14.0. It provides comprehensive weather information for cities added by the user, fetched from freely available weather APIs. The app includes several features for adding and managing cities and viewing detailed weather forecasts.
+SeeWeather is an Android application built in Kotlin that emulates the weather app from Android 14.0. It provides comprehensive weather information for cities added by the user, fetched from freely available weather APIs. The app includes several features for adding and managing cities and viewing detailed weather forecasts.
 
 ## Features
 
@@ -29,7 +29,7 @@ WeatherApp is an Android application built in Kotlin that emulates the weather a
 
 ## Visual Design
 
-The visual design of WeatherApp closely resembles the original weather app on Android 14.0, with minor adjustments to enhance user experience and usability.
+The visual design of SeeWeather closely resembles the original weather app on Android 14.0, with minor adjustments to enhance user experience and usability.
 
 ## Usage
 
@@ -44,4 +44,4 @@ Contributions are welcome! If you have suggestions or improvements, please submi
 
 ---
 
-Feel free to reach out with any questions or feedback. Enjoy using WeatherApp!
+Feel free to reach out with any questions or feedback. Enjoy using SeeWeather!
