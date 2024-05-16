@@ -2,14 +2,15 @@
 <resources>
     <color name="transparent">#00000000</color>
     <color name="black">#FF000000</color>
-    <color name="blackTransparent">#4D000000</color>
+    <color name="blackTransparent">#33000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="citybg">#686868</color>
     <color name="greyText">#B3B3B3</color>
     <color name="greyTransparent">#80B3B3B3</color>
     <color name="greyTransparent2">#14B3B3B3</color>
+    <color name="greyTransparent3">#4DB3B3B3</color>
     <color name="grey">#888888</color>
-    <color name="greyTopBar">#BABABA</color>
+    <color name="greyTopBar">#FFFFFF</color>
     <color name="thunderstorm">#555555</color>
     <color name="drizzle">#676767</color>
     <color name="blue">#358AE8</color>

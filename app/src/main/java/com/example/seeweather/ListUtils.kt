@@ -10,13 +10,17 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import android.view.Window
 import android.view.WindowManager
+import androidx.core.content.ContextCompat
 import java.util.Date
 import java.util.Locale
 
 object ListUtils {
 
     fun loadImageFromIconName(context: Context, iconName: String, imageView: ImageView) {
-        val resourceId = context.resources.getIdentifier(iconName, "drawable", context.packageName)
+
+        val newIconName = iconName.replace("-", "")
+
+        val resourceId = context.resources.getIdentifier(newIconName, "drawable", context.packageName)
         if (resourceId != 0) {
             Glide.with(context)
                 .load(resourceId)

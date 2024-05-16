@@ -58,8 +58,6 @@
             android:maxLines="1"
             android:background="@drawable/rounden_edit_text"/>
 
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/RecyclerViewResults"
         android:visibility="gone"

@@ -124,6 +124,8 @@ class BottomSheetWeather(private val lat: Double, private val lon: Double, priva
 
         val jsonRequest2 = JsonObjectRequest(url2, { response ->
 
+            Log.d("Response", url2)
+
             weatherForDay = mutableListOf()
 
             val days = response.getJSONArray("days")

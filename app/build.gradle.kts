@@ -41,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation("com.tbuonomo:dotsindicator:5.0")
     implementation("com.github.realpacific:click-shrink-effect:2.0")
     implementation("com.daimajia.androidanimations:library:2.4@aar")
     implementation("com.github.gayanvoice:android-animations-kotlin:1.0.1")

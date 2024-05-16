@@ -41,7 +41,7 @@ class WeatherDailyAdapter(private val weather: List<WeatherDailyData>) : Recycle
 
         holder.itemView.setOnClickListener {
 
-            FragmentDetails(weather.date, Constants.lat, Constants.lon).show((holder.itemView.context as AppCompatActivity).supportFragmentManager, "details")
+            FragmentDetails(weather.date, Constants.lat, Constants.lon, weather.icon).show((holder.itemView.context as AppCompatActivity).supportFragmentManager, "details")
 
         }
 

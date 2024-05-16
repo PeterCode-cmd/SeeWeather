@@ -31,16 +31,39 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:layout_marginEnd="16dp"/>
 
-            <TextView
-                android:id="@+id/tvCityName"
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                tools:text="Your Title"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:textSize="22sp"
-                android:layout_marginStart="16dp"/>
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCityName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    tools:text="Your Title"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:layout_marginStart="16dp"/>
+
+                <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+                    android:id="@+id/worm_dots_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:dotsColor="@color/white"
+                    app:dotsStrokeColor="@color/white"
+                    app:dotsCornerRadius="8dp"
+                    app:dotsSize="8dp"
+                    android:visibility="gone"
+                    app:dotsSpacing="3dp"
+                    app:dotsStrokeWidth="2dp" />
+
+
+            </LinearLayout>
+
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -282,7 +305,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Wiatr SSE"
+                    android:text="Wiatr"
                     android:textColor="@color/greyText"
                     android:layout_marginTop="35dp"
                     android:layout_marginLeft="12dp"
@@ -379,6 +402,7 @@
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewSunset"
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -453,6 +477,17 @@
                 android:textStyle="bold" />
 
         </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="made by PeterCode⚡"
+            android:layout_below="@id/cardViewSunset"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/greyTransparent3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"/>
 
 
     </RelativeLayout>
